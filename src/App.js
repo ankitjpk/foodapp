@@ -16,7 +16,7 @@ class App extends Component {
     }
   
     componentDidMount(){
-      const url = "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/flats.json";
+      const url = "https://raw.githubusercontent.com/ankitjpk/sampleapi/master/food.json";
       fetch(url)
         .then(response => response.json())
         .then((data) =>  {
